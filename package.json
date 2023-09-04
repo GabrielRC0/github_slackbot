@@ -1,0 +1,22 @@
+{
+  "name": "newbot",
+  "version": "1.0.0",
+  "description": "a helpful slack bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.mjs"
+  },
+  "author": "GabrielRC0",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.13.3",
+    "@slack/rtm-api": "^6.1.1",
+    "@slack/web-api": "^6.9.0",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
